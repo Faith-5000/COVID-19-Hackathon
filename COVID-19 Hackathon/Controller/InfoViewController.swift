@@ -13,6 +13,11 @@ class InfoViewController: UIViewController {
     @IBOutlet weak var headLabel: UILabel!
     
     var headText = "Social Distancing"
+    var buttonNum = 0
+    
+    var makeInfo = FinalInfo()
+    var info = ["", "", "", "",""]
+    var num = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,17 +30,31 @@ class InfoViewController: UIViewController {
     }
     
     @IBAction func buttonPressed(_ sender: UIButton) {
+        num = sender.tag
+        
+        info = makeInfo.makeInfo(firstNum: buttonNum, secNum: sender.tag)
         
         performSegue(withIdentifier: "goToFinal", sender: self)
     }
     
     
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "goToFinal" {
-//            let destinationVC = segue.destination as! FinalInfoViewController
-//            
-//        }
-//    }
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToFinal" {
+            let destinationVC = segue.destination as! FinalInfoViewController
+            
+            destinationVC.headText = headText
+            destinationVC.num = num
+            
+            destinationVC.firLabel = info[0]
+            destinationVC.firImage = info[1]
+            destinationVC.secLabel = info[2]
+            destinationVC.secImage = info[3]
+            destinationVC.thirLabel = info[4]
+            
+            
+            
+        }
+    }
+    
 }

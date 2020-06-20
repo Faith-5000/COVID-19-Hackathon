@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8440852249D95F8003A1530 /* AboutInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8440851249D95F8003A1530 /* AboutInfoViewController.swift */; };
 		F85133D1249C55080070A4C3 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85133D0249C55070070A4C3 /* InfoViewController.swift */; };
 		F85133D3249C63DE0070A4C3 /* FinalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85133D2249C63DE0070A4C3 /* FinalInfoViewController.swift */; };
 		F85133D8249D5DF30070A4C3 /* FinalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85133D7249D5DF30070A4C3 /* FinalInfo.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F8440851249D95F8003A1530 /* AboutInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutInfoViewController.swift; sourceTree = "<group>"; };
 		F85133D0249C55070070A4C3 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		F85133D2249C63DE0070A4C3 /* FinalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalInfoViewController.swift; sourceTree = "<group>"; };
 		F85133D7249D5DF30070A4C3 /* FinalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalInfo.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				F85133D0249C55070070A4C3 /* InfoViewController.swift */,
 				F85133D2249C63DE0070A4C3 /* FinalInfoViewController.swift */,
 				F85133D9249D610F0070A4C3 /* AboutScreenViewController.swift */,
+				F8440851249D95F8003A1530 /* AboutInfoViewController.swift */,
 				F8E14F502493FCB000E713C3 /* ViewController.swift */,
 			);
 			path = Controller;
@@ -192,6 +195,7 @@
 				F8E14F4D2493FCB000E713C3 /* AppDelegate.swift in Sources */,
 				F85133D1249C55080070A4C3 /* InfoViewController.swift in Sources */,
 				F8E14F702496C71400E713C3 /* HomeViewController.swift in Sources */,
+				F8440852249D95F8003A1530 /* AboutInfoViewController.swift in Sources */,
 				F85133D3249C63DE0070A4C3 /* FinalInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
