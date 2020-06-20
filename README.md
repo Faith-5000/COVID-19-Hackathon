@@ -1,5 +1,5 @@
 # COVID-19-Hackathon
-Creating a social-emotional app to help people deal with the stress of the covid-19 pandemic.
+Theme: Creating a social-emotional app to help people deal with the stress of the covid-19 pandemic.
 
 ## Inspiration:
 The Covid-19 pandemic has impacted everyone and has most likely caused lots of stress for a lot of people. We have seen many apps that are designed to display Covid-19 information or help screen people to see if they may or may not have the virus. But there isn't an app designed to help people cope with the stress that this pandemic has created. So we decided to create a social-emotional app aimed to help people deal with being in quarantine and managing the stress related to the pandemic.
