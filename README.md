@@ -22,3 +22,8 @@ We learned how to research better, plan projects and follow through as well as l
 ## What's next for Cope With Covid: 
 We would like to add an AR game to the app to make it more entertaining because playing games can be a great stress reliever. We would also like to crowdsource and research more tips and information to give users more info that they can use. As well as setting up a notification feature that would give the user tips right from their home screen.
 
+## To Use:
+- Open Xcode
+- Click on Source Control
+- Press Clone
+- Paste the github address
